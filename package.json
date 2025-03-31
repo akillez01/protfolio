@@ -1,0 +1,25 @@
+{
+  "name": "protfolio",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akillez01/protfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akillez01/protfolio/issues"
+  },
+  "homepage": "https://github.com/akillez01/protfolio#readme",
+  "dependencies": {
+    "@tabler/icons-react": "^3.31.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
