@@ -1,4 +1,4 @@
-POST https://akillezdev.app.n8n.cloud/webhook/aaa7f703-fb84-4731-aed7-03b648c15a59
+POST https://akillezdev.app.n8n.cloud/webhook/8e563a40ed4f416096ea46a7e8479808
 Content-Type: application/json
 
 {
