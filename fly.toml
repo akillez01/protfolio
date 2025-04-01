@@ -1,15 +1,12 @@
-# fly.toml app configuration file generated for backend-rough-water-1141 on 2025-03-30T16:24:45-05:00
+# fly.toml app configuration file generated for protfolio on 2025-04-01T13:11:04-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backend-rough-water-1141'
-primary_region = 'gru'
+app = 'protfolio'
+primary_region = 'gig'
 
 [build]
-
-[deploy]
-  release_command = 'npx prisma migrate deploy'
 
 [http_service]
   internal_port = 4000
@@ -23,4 +20,3 @@ primary_region = 'gru'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
- 

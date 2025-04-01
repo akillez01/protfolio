@@ -24,7 +24,7 @@ export default function Principal(props: PrincipalProps) {
 						</span>
 						<span className="w-2 h-2 rounded-full bg-red-500"></span>
 					</h1>
-					<h2 className="text-zinc-500 text-center">CTO da COD3R Ensino e Consultoria</h2>
+					<h2 className="text-zinc-500 text-center"> Consultoria e Projetos</h2>
 				</div>
 				<Tecnologias lista={props.tecnologias} />
 			</div>

@@ -12,7 +12,7 @@ export default function ItemProjeto(props: ItemProjetoProps) {
 			<div
 				className="
                     relative rounded-2xl overflow-hidden border border-zinc-800
-                    min-w-64 min-h-64 
+                    min-w-64 min-h-64
                 "
 			>
 				<Image
